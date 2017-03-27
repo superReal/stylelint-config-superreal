@@ -6,6 +6,9 @@
 [![Build Status](https://travis-ci.org/superReal/stylelint-config-superreal.svg?branch=master)](https://travis-ci.org/superReal/stylelint-config-superreal)
 [![Known Vulnerabilities](https://snyk.io/test/github/superReal/stylelint-config-superreal/badge.svg)](https://snyk.io/test/github/superReal/stylelint-config-superreal)
 
+**Note that the README on the `master` branch might not match that of the [latest stable release](https://github.com/superReal/stylelint-config-superreal/releases/latest)!**
+
+
 ## Installation
     
 ```bash
