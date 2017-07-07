@@ -28,11 +28,11 @@
   "author": "superReal GmbH",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^3.17.1",
-    "eslint-config-superreal": "^1.0.0",
-    "eslint-plugin-import": "^2.2.0",
+    "eslint": "^4.1.1",
+    "eslint-config-superreal": "^1.1.0",
+    "eslint-plugin-import": "^2.7.0",
     "pre-commit": "^1.2.2",
-    "stylelint": "^7.9.0"
+    "stylelint": "^7.12.0"
   },
   "peerDependencies": {
     "stylelint": ">= 7"
