@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-superreal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "stylelint shareable config for superReal",
   "files": [
     "index.js"
