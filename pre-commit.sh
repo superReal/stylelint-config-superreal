@@ -1,9 +1,15 @@
 #!/bin/bash
 set -o errexit
 
-num=`git status --porcelain | grep 'src\|test/' | wc -l`
+js=`git status --porcelain | grep '\.js' | wc -l`
+scss=`git status --porcelain | grep '\.scss' | wc -l`
 
-if [ "$num" -gt "0" ]
+if [ "$js" -gt "0" ]
 then
-    eslint './index.js' && stylelint './test/styles/*.scss'
+    eslint '.'
+fi
+
+if [ "$scss" -gt "0" ]
+then
+    stylelint './**/*.scss'
 fi
