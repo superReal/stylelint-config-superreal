@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-superreal",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "stylelint shareable config for superReal",
   "files": [
     "index.js"
@@ -28,13 +28,13 @@
   "author": "superReal GmbH",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^3.19.0",
-    "eslint-config-superreal": "^1.1.0",
-    "eslint-plugin-import": "^2.7.0",
+    "eslint": "^4.13.1",
+    "eslint-config-superreal": "^2.0.0",
+    "eslint-plugin-import": "^2.8.0",
     "pre-commit": "^1.2.2",
-    "stylelint": "^7.12.0"
+    "stylelint": "^8.4.0"
   },
   "peerDependencies": {
-    "stylelint": ">= 7"
+    "stylelint": "8.x"
   }
 }

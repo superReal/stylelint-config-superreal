@@ -1,10 +1,15 @@
 # stylelint Config superReal Changelog
 
-## Next (XX/XX/XX)
+## Next (20/12/17)
+
+- stylelint 8 compatibility
+- Update outdated npm modules
+- Fix pre-commit tasks
+
 
 ### Major
 
-- 
+-
 
 ### Minor
 
