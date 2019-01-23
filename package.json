@@ -1,22 +1,17 @@
 {
   "name": "stylelint-config-superreal",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "stylelint shareable config for superReal",
   "files": [
     "index.js"
   ],
   "main": "./index.js",
-  "eslintConfig": {
-    "extends": "superreal"
-  },
   "stylelint": {
     "extends": "./index.js"
   },
   "scripts": {
-    "lint": "./pre-commit.sh && exit 0",
     "test": "stylelint './test/styles/test.scss'"
   },
-  "precommit": "lint",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/superReal/stylelint-config-superreal.git"
@@ -28,13 +23,9 @@
   "author": "superReal GmbH",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^4.13.1",
-    "eslint-config-superreal": "^2.0.0",
-    "eslint-plugin-import": "^2.8.0",
-    "pre-commit": "^1.2.2",
-    "stylelint": "^8.4.0"
+    "stylelint": "^9.10.1"
   },
-  "peerDependencies": {
-    "stylelint": "8.x"
+  "engines": {
+    "node": ">= 8.10.0"
   }
 }
