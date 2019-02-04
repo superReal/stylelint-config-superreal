@@ -12,6 +12,7 @@ module.exports = {
         /* Font family */
         'font-family-name-quotes': 'always-where-recommended',
         'font-family-no-duplicate-names': true,
+        'font-family-no-missing-generic-family-keyword': null,
 
         /* Font weight */
         'font-weight-notation': 'named-where-possible',
@@ -24,6 +25,7 @@ module.exports = {
         'function-comma-space-after': null,
         'function-comma-space-before': 'never',
         'function-linear-gradient-no-nonstandard-direction': true,
+        'function-calc-no-invalid': null,
         'function-max-empty-lines': 0,
         'function-name-case': 'lower',
         'function-parentheses-newline-inside': null,
@@ -33,6 +35,9 @@ module.exports = {
         'function-url-quotes': null,
         'function-whitelist': null,
         'function-whitespace-after': 'always',
+
+        /* Keyframes */
+        'keyframes-name-pattern': null,
 
         /* Number */
         'number-leading-zero': 'never',
@@ -140,9 +145,11 @@ module.exports = {
         'selector-attribute-operator-space-before': 'never',
         'selector-attribute-operator-whitelist': null,
         'selector-attribute-quotes': 'never',
-        'selector-class-pattern': '^[0-9a-zA-Z_\.\-]+$', // eslint-disable-line
+        'selector-class-pattern': '^[0-9a-zA-Z_\.\-]+$',
         'selector-combinator-space-after': 'always',
         'selector-combinator-space-before': 'always',
+        'selector-combinator-blacklist': null,
+        'selector-combinator-whitelist': null,
         'selector-descendant-combinator-no-non-space': true,
         'selector-id-pattern': '^$',
         'selector-max-compound-selectors': 5,
@@ -158,13 +165,17 @@ module.exports = {
         'selector-pseudo-class-case': 'lower',
         'selector-pseudo-class-no-unknown': true,
         'selector-pseudo-class-parentheses-space-inside': 'never',
+        'selector-pseudo-class-blacklist': null,
         'selector-pseudo-class-whitelist': null,
         'selector-pseudo-element-case': 'lower',
         'selector-pseudo-element-colon-notation': 'double',
         'selector-pseudo-element-no-unknown': true,
+        'selector-pseudo-element-blacklist': null,
+        'selector-pseudo-element-whitelist': null,
         'selector-type-case': 'lower',
         'selector-type-no-unknown': true,
         'selector-max-empty-lines': 1,
+        'selector-max-pseudo-class': null,
 
         /* Selector list */
         'selector-list-comma-newline-after': 'always',
@@ -179,6 +190,7 @@ module.exports = {
         'media-feature-name-case': 'lower',
         'media-feature-name-no-unknown': true,
         'media-feature-name-no-vendor-prefix': true,
+        'media-feature-name-value-whitelist': null,
         'media-feature-name-whitelist': null,
         'media-feature-range-operator-space-after': 'always',
         'media-feature-range-operator-space-before': 'never',
@@ -219,16 +231,19 @@ module.exports = {
                 ],
             },
         ],
+        'linebreaks': null,
         'max-empty-lines': 2,
         'max-line-length': 120,
         'max-nesting-depth': 5,
         'no-descending-specificity': true,
+        'no-duplicate-at-import-rules': null,
         'no-duplicate-selectors': true,
         'no-empty-source': true,
         'no-eol-whitespace': true,
         'no-extra-semicolons': true,
         'no-invalid-double-slash-comments': true,
         'no-missing-end-of-source-newline': true,
+        'no-empty-first-line': null,
         'no-unknown-animations': true,
     },
 };
